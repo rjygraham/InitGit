@@ -1,6 +1,6 @@
 # InitGit
 
-InitGit enables initializing a new Git repository with a default files and folder structure based on an existing local folder structure or GitHub repository.
+InitGit enables initializing a new Git repository with default files and folder structure based on an existing local folder structure or GitHub repository.
 
 For example, nearly every Git repo will have the following files:
 
