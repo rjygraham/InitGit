@@ -1,0 +1,13 @@
+root = true
+
+# Windows-style newlines and proper indentation ;-)
+[*]
+end_of_line = crlf
+insert_final_newline = false
+indent_style = tab
+indent_size = 4
+
+# Better get this correct or hours of your life can be wasted...
+[*.yml,*.yaml]
+indent_style = space
+indent_size = 2
