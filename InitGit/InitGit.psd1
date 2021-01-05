@@ -33,7 +33,7 @@
     Description = 'InitGit enables initializing a new Git repository with a default file and folder structure based on an existing local folder structure or GitHub repository.'
 
     # Minimum version of the PowerShell engine required by this module
-    # PowerShellVersion = ''
+    PowerShellVersion = '5.1'
 
     # Name of the PowerShell host required by this module
     # PowerShellHostName = ''
@@ -95,7 +95,7 @@
         PSData = @{
 
             # Tags applied to this module. These help with module discovery in online galleries.
-            Tags = 'Git','Version Control','Source Control','Template'
+            Tags = @('Git', 'VersionControl', 'Version-Control', 'SourceControl', 'Source-Control', 'Template')
 
             # A URL to the license for this module.
             LicenseUri = 'https://raw.githubusercontent.com/rjygraham/InitGit/main/LICENSE'
@@ -107,10 +107,10 @@
             # IconUri = ''
 
             # ReleaseNotes of this module
-            # ReleaseNotes = ''
+            ReleaseNotes = 'https://github.com/rjygraham/InitGit/blob/main/CHANGELOG.md'
 
             # Prerelease string of this module
-            # Prerelease = ''
+            Prerelease = 'beta'
 
             # Flag to indicate whether the module requires explicit user acceptance for install/update/save
             # RequireLicenseAcceptance = $false
