@@ -47,7 +47,9 @@ InitGit will do the following:
 
 ### Auto-commit
 
-To auto-commit, just add the `-Commit` switch to any of the above commands.
+To auto-commit the newly added files, just add the `-Commit` switch to any of the above commands. For example:
+
+`Initialize-Git -Repository "rjygraham/InitGitTemplate" -Branch "dotnet" -Commit`
 
 ## License
 
