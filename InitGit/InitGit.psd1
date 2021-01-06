@@ -107,7 +107,7 @@
             # IconUri = ''
 
             # ReleaseNotes of this module
-            # ReleaseNotes = ''
+            ReleaseNotes = 'https://github.com/rjygraham/InitGit/blob/main/CHANGELOG.md'
 
             # Prerelease string of this module
             Prerelease = 'beta'
